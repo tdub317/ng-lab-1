@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+form {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    box-shadow: 0px 0px 5px 0px rgba(235, 46, 46, 0.75);
+}
+
+p {
+    margin: 0px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 300px;
+}
+
+.text, li{
+    font-size: 12px;
+}
+
+input, .add_btn, ol, p  {
+    margin: 0;
+    width: 90%;
+}
+
+form, button, input {
+    border-radius: 5px;
+}
+
+.add_btn, input {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+input {
+    border: 1px solid #bbb; 
+    margin: 10px; 
+}
+
+ol {
+    position: relative;
+    width: 80%;
+    
+}
+
+li {
+    margin: 5px 0px;
+}
+
+li > button {
+    border-color: #ff69b4;
+    color: #ff69b4;
+    font-size: 8px;
+    margin-right: 5px;
+    padding: 4px 5px;
+}
+
+.material-icons {
+    position: absolute;
+    right: 0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.add_btn {
+    background-color: #ff69b4;
+    margin-bottom: 25px;
+}
